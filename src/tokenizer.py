@@ -236,4 +236,4 @@ def path2word(word, path):
 
 if __name__=='__main__':
     tran = TransTokenizer()
-    tran.to_json('/disk/zsh/PasswordRL/dict/dict.json')
+    tran.to_json('pathtodict.json')
