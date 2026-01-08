@@ -95,8 +95,8 @@ class PassRLTrainer:
 def main():
 
 
-    dataset = "/disk/data/targuess/2_train/pitg/Collection1_cos_4kw.csv"
-    model_save = "/disk/zsh/PasswordRL/model/Collection1_cos_4kw_weight0.1_v6.pt"
+    dataset = "pathtotrain"
+    model_save = "model.pt"
 
     trainer = PassRLTrainer(
         epoch=1, 
